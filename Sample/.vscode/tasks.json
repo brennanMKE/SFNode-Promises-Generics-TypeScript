@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    "command": "grunt",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "clean",
+            "args": [],
+            "isBuildCommand": false,
+            "showOutput": "always",
+            "problemMatcher": "$tsc"
+        },
+        {
+            "taskName": "build",
+            "args": [],
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$tsc"
+        },
+        {
+            "taskName": "test",
+            "args": [],
+            "isBuildCommand": false,
+            "showOutput": "always",
+            "problemMatcher": "$tsc"
+        }
+    ]
+}

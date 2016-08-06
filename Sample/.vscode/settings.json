@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontFamily": "Input Mono",
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "editor.autoClosingBrackets": false,
+    "editor.quickSuggestions": true,
+    "editor.quickSuggestionsDelay": 250,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": true
+    }
+}

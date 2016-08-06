@@ -1,0 +1,39 @@
+{
+  "rules": {
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "interface-name": [false],
+    "max-line-length": [true, 120],
+    "member-ordering": [true, "public-before-private", "variables-before-functions"],
+    "no-arg": true,
+    "no-console": [false, "log", "trace", "error", "debug", "time", "timeEnd"],
+    "no-duplicate-key": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-unreachable": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "label-undefined": true,
+    "no-construct": true,
+    "quotemark": [true, "single", "avoid-escape"],
+    "triple-equals": true,
+    "typedef": [true, "property-declaration", "member-variable-declaration"],
+    "use-strict": [true, "check-module"],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "radix": true,
+    "semicolon": ["always"],
+    "indent": [true, "spaces"]
+  }
+}
